@@ -25,4 +25,13 @@ public class UserController {
         return null;
     }
 
+    @RequestMapping("user_manager")
+    public String manager(){
+        return "user/user";
+    }
+
+    @RequestMapping("user_index")
+    public String user_index(){
+        return "user/user_index";
+    }
 }
